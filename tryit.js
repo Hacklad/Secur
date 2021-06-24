@@ -1,5 +1,4 @@
     <script>
-    alert(0)
     var xhr1 = new XMLHttpRequest();
 
     xhr1.onreadystatechange = function()
